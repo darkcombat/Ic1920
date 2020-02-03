@@ -1,5 +1,6 @@
 # Ic1920
 Lymphography Classification
+
 The development of the project is oriented to predict, starting from the results deriving from a lymphographer exam, which class target corresponds to the values ​​purchased.
 The possible objectives to which the results required by the aforementioned examination may belong are Normal findings, Metastasis, Malignant lymph and Fibrosis.
 In this regard, a series of both supervised and unsupervised learning techniques have been declared. Furthermore, it was modeled by an ontology of domain that offers a formal and conceptualized representation of the reality examined, both related to other ontologies already present and can be questioned.
