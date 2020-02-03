@@ -1,0 +1,242 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/administrator/ontologies/2020/1/untitled-ontology-12"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/administrator/ontologies/2020/1/untitled-ontology-12">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://purl.obolibrary.org/obo/doid/releases/2019-05-13/doid.owl</Import>
+    <Declaration>
+        <Class IRI="#bean"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bl._of_lymph._c"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bl._of_lymph._s"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#by_pass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chalices"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#changes_in_lym"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#changes_in_node"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#changes_in_stru"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#coarse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#defect_in_node"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#diluted"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#drop-like"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#early_uptake_in"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#exclusion_of_no"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#extravasates"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#faint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#grainy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lac._central"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lac._margin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lacunar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#oval"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#regeneration_of"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#reticular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#round"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#special_forms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stripped"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vesicles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#.block_of_affere"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#riccardo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_2005036"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_3011045"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_2005036"/>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_3011045"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bean"/>
+        <Class IRI="#changes_in_lym"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bl._of_lymph._c"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_5826"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bl._of_lymph._s"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_5826"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#by_pass"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_5826"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chalices"/>
+        <Class IRI="#special_forms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#changes_in_lym"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_5826"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#changes_in_node"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_5826"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#changes_in_stru"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_5826"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coarse"/>
+        <Class IRI="#changes_in_stru"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#defect_in_node"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_5826"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diluted"/>
+        <Class IRI="#changes_in_stru"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#drop-like"/>
+        <Class IRI="#changes_in_stru"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#early_uptake_in"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_5826"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#exclusion_of_no"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_5826"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#extravasates"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_5826"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#faint"/>
+        <Class IRI="#changes_in_stru"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#grainy"/>
+        <Class IRI="#changes_in_stru"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lac._central"/>
+        <Class IRI="#changes_in_node"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lac._margin"/>
+        <Class IRI="#changes_in_node"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lacunar"/>
+        <Class IRI="#changes_in_node"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oval"/>
+        <Class IRI="#changes_in_lym"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#regeneration_of"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_5826"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#reticular"/>
+        <Class IRI="#changes_in_stru"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#round"/>
+        <Class IRI="#changes_in_lym"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#special_forms"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_5826"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stripped"/>
+        <Class IRI="#changes_in_stru"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vesicles"/>
+        <Class IRI="#special_forms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#.block_of_affere"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_5826"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/doid.owl#person"/>
+        <NamedIndividual IRI="#riccardo"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.obolibrary.org/obo/doid.owl#hasBreastCancer"/>
+        <NamedIndividual IRI="#riccardo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://purl.obolibrary.org/obo/doid.owl#hasBreastCancer"/>
+        <Class IRI="http://purl.obolibrary.org/obo/doid.owl#person"/>
+    </DataPropertyDomain>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
